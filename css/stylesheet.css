@@ -1,0 +1,216 @@
+/* Generalidades del documento*/
+body, html{
+  background-color: white;
+  height: 100%;
+  font-family: Open Sans;
+  color: #000;
+}
+
+/*Nav Bar*/
+#nav-bar{
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+html, body{
+  overflow: auto;
+}
+
+/*Carousel*/
+
+.carousel-caption{
+  text-align: center;
+  color: white;
+  top: 85%;
+  left: 50%;
+}
+
+.carousel-caption .baby{
+  color: black;
+}
+
+.carousel-caption h1{
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.btn-light{
+  border-radius: 65px;
+  font-size: 12px;
+}
+
+.btn-light:hover{
+  color: #fff;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+.espaciado{
+  padding: 50px 0px;
+}
+
+
+/*Cartelera*/
+#sec-cartelera{
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(67,67,67,1) 100%);
+}
+
+.titulo span{
+	font-size: 18px;
+}
+
+.titulo{
+	padding: 0px 100px 55px 35px;
+  font-family: Oswald;
+  font-weight: 500;
+}
+
+.row h3{
+  font-family: Oswald;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: normal;
+}
+
+#sec-cartelera .cartelera{
+  position: relative;
+}
+#sec-cartelera .cartelera-texto{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+#sec-cartelera .cartelera-texto h3{
+  color: #fff;
+  font-weight: 600;
+}
+
+#sec-cartelera .cartelera:hover .cartelera-texto{
+  opacity: 1;
+  transition: all ease-in-out 0.5s;
+}
+
+.boton-cartelera{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-dark{
+  border-radius: 65px;
+  font-size: 12px;
+  color: #1e1d2b;
+  background-color: #fff;
+  border-color: #1e1d2b
+}
+
+.btn-dark:hover{
+  color: #1e1d2b;
+  background-color: #a95ca4;
+  border-color: #a95ca4
+}
+
+/*Promociones*/
+/*#sec-promociones{
+  background-image: url(../img/cinema.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+
+}*/
+#sec-promociones .padre, #sec-clases .info-clase{
+	position: relative;
+}
+
+#sec-promociones .hijo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.90);
+	padding: 15px 25px;
+	margin-right: 100px;
+	color: white;
+}
+
+#sec-promociones .hijo h3{
+	color: #fff;
+	font-weight: 600;
+	text-align:center;
+}
+
+/*Footer*/
+#foot{
+  height: 50%;
+}
+
+footer{
+  color: #fff;
+  text-align: right;
+  padding: 10px 0px;
+  margin-bottom: -50px;
+  padding-bottom: -50px;
+  background-color: #1e1d2b;
+  font-size: 12px;
+  height: auto;
+
+}
+
+#footer .img{
+	max-width: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100px;
+
+}
+
+/*Contacto*/
+#sec-breadcrumb{
+	background-color: #f3f3f3;
+}
+#sec-breadcrumb .breadcrumb{
+	background-color: transparent;
+	border-radius: 0;
+}
+.letra-morada{
+	color: rgba(24,7,37,1.00);
+}
+
+.barra{
+	background-color:  rgba(24,7,37,1.00);
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 3px;
+}
+#sec-contact .sub-titulo{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#sec-contact h4{
+	font-weight: 700;
+	text-align: center;
+}
+
+#map{
+	width: 100%;
+	min-height: 300px;
+}
+#sec-content h1{
+	text-align: center;
+}
