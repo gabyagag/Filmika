@@ -19,14 +19,10 @@ html, body{
 /*Carousel*/
 
 .carousel-caption{
-  text-align: center;
+  text-align: left;
   color: white;
-  top: 85%;
-  left: 50%;
-}
-
-.carousel-caption .baby{
-  color: black;
+  top: 75%;
+  left: 40%;
 }
 
 .carousel-caption h1{
@@ -50,6 +46,7 @@ html, body{
 }
 
 
+
 /*Cartelera*/
 #sec-cartelera{
   background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(67,67,67,1) 100%);
@@ -63,6 +60,7 @@ html, body{
 	padding: 0px 100px 55px 35px;
   font-family: Oswald;
   font-weight: 500;
+  color: white;
 }
 
 .row h3{
@@ -122,7 +120,7 @@ html, body{
 }
 
 /*Promociones*/
-/*#sec-promociones{
+#sec-promociones{
   background-image: url(../img/cinema.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -132,7 +130,10 @@ html, body{
   font-weight: lighter;
   font-size: 20px;
 
-}*/
+}
+
+/*#sec-promociones*/
+
 #sec-promociones .padre, #sec-clases .info-clase{
 	position: relative;
 }
@@ -213,4 +214,117 @@ footer{
 }
 #sec-content h1{
 	text-align: center;
+}
+
+/*Blog*/
+#blog .titulo{
+  color: black;
+}
+
+#blog .padre, #blog .info-clase{
+	position: relative;
+}
+
+#blog .hijo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.60);
+	padding: 15px 25px;
+	margin-right: 100px;
+	color: white;
+  min-height: 50px;
+}
+
+#blog .hijo h1{
+	color: #fff;
+	font-weight: 400;
+  font-size: 24px;
+  font-family: 'Oswald';
+}
+
+#blog .fecha{
+  font-size: 16px;
+  font-style: italic;
+}
+
+#blog .teaser{
+font-size: 14px;
+}
+
+#blog .mas{
+  text-align: right;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#blog .articulos{
+  text-align: right;
+  font-size: 18px;
+  font-weight: 900;
+  font-style: italic;
+  margin-top: 25px;
+}
+
+/*Acerca de Nostros*/
+#sec-acerca .btn-centro1,.btn-centro2, .btn-centro3,.btn-centro4,.btn-centro5,.btn-centro6,.btn-centro7,.btn-centro8{
+	margin-left: px;
+}
+
+#sec-acerca img{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#sec-titular .titulo{
+  color: black;
+  margin-bottom: -70px;
+}
+
+/*Proximamente*/
+#sec-estreno h3{
+	text-align: left;
+}
+#sec-estreno2 h3{
+	text-align: left;
+}
+#sec-estreno3 h3{
+	text-align: left;
+}
+
+.btn-mas{
+	margin-top: 20px;
+	margin-left: 400px;
+}
+
+#sec-titular{
+	 font-family: Oswald;
+  font-weight: 500;
+}
+
+#sec-estreno{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+}
+#sec-estreno2{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+}
+#sec-estreno3{
+	font-family: Open Sans;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.bar{
+	background-color: #1E1D2B;
+	width: 900px;
+	margin-left: 50;
+	margin-right: 50;
+	height: 3px;
 }
